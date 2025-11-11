@@ -1,0 +1,15 @@
+# LaTeX intermediate and auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+
+# Generated output files
+main.pdf
+
+# Image or media files (keep only if necessary)
+picture.jpg
+

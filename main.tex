@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+
+% Zijian_(Richard)_Meng_Resume_v2025-07.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+
+\usepackage{fontspec}
+
+\newfontface\lserif{Liberation Serif}
+\newcommand{\Csh}{C{\lserif\#}}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Richard} % Your first name
+\familyname{MENG} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Rte gremda km 4,5 Av Mongi Slim}{Sfax, Tunisie BP 3062}
+\mobile{(+216) 52 573 153}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{contacti@richardzjm.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+\extrainfo{24 ans}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+\quote{ \Large PhD Applicant}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2013--2016}{Diplôme National d'Ingénieur en Informatique Industrielle}{}{}{}{	\'Ecole Nationale d'Electronique et des T\'el\'ecommunications de Sfax - ENETCOM}  % Arguments not required can be left empty
+\cventry{2011--2013}{Cycle Préparatoire Physique-Technqiue }{}{}{}{Institut Préparatoire Aux Etudes d'Ing\'enieurs de Sfax - IPEIS}
+\cventry{2011}{Baccalauréat Technqiue}{}{}{}{Lycée secondaire Hedi Soussi (Nasria) Sfax}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{September--December 2025}{Computational Modelling Intern}{Canadian Nuclear Laboratories}{Chalk River,  Canada}{}{• hel \\ • hel \\  • hello??
+}
+
+\cventry{Fervrier--Juin 2016}{Projet de fin d'études}{Cynapsys}{\small Tunis}{}{Refonte d'une application web de gestion de facturation AMADEUS BILLING \\ ASP.NET MVC 5/ Telerik Kendo UI / SQL Server  }
+{}
+
+\cventry{Juillet--Aout 2015}{Stage Technicien}{Carthago Ceramic Polina}{\small Agareb}{}{installation et mise en place d'un nouvel automate OMRON \\ synchronisation avec une nouvelle chaine de production }
+{}
+
+\cventry{Juin--Juillet 2014}{Stage d'initiation}{Trapsa Petrolium}{\small Skhira}{}{instrumentaion et régulation industrielle }
+{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Connaissances}
+
+\cvitem{.NET}{.NET Framework, Entity Framework, ASP.NET MVC, Telerik Kendo UI}
+\cvitem{Langages}{Java, C, UML, \Csh{}, HTML/CSS, Javascript, JQuery, Android, Xamarin}
+\cvitem{SGBD}{MySQL, PostgreSQL, SQL Server, Sqlite}
+\cvitem{Systémes et Outils}{GNU/Linux, Windows, Visual Studio 2013, Eclipse, IntelliJ IDEA, Android Studio}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Langues}
+\begin{small}
+\cvitemwithcomment{Arabe}{Maternelle}{}
+\cvitemwithcomment{Français}{Très Bon Niveau}{DELF B1 - 2008}
+\cvitemwithcomment{Anglais}{Très Bon Niveau}{TOEIC B2 - 2016}
+\end{small}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Centres d'intérêt }
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{Club} {Vice Président Club Microsoft ENETCOM (2014)} 
+\cvitem{Loisirs} {Voyage, Sport, Musique } 
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
